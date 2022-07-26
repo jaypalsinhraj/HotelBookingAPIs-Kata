@@ -1,0 +1,15 @@
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\bin\Debug\net6.0\HotelBooking.Entities.deps.json
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\bin\Debug\net6.0\HotelBooking.Entities.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\bin\Debug\net6.0\HotelBooking.Entities.pdb
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\bin\Debug\net6.0\HotelBooking.Models.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\bin\Debug\net6.0\HotelBooking.Models.pdb
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\obj\Debug\net6.0\HotelBooking.Entities.csproj.AssemblyReference.cache
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\obj\Debug\net6.0\HotelBooking.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\obj\Debug\net6.0\HotelBooking.Entities.AssemblyInfoInputs.cache
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\obj\Debug\net6.0\HotelBooking.Entities.AssemblyInfo.cs
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\obj\Debug\net6.0\HotelBooking.Entities.csproj.CoreCompileInputs.cache
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\obj\Debug\net6.0\HotelBooking.Entities.csproj.CopyComplete
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\obj\Debug\net6.0\HotelBooking.Entities.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\obj\Debug\net6.0\refint\HotelBooking.Entities.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\obj\Debug\net6.0\HotelBooking.Entities.pdb
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Entities\obj\Debug\net6.0\ref\HotelBooking.Entities.dll

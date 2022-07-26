@@ -5916,11 +5916,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking\\HotelBooking.APIs.Tests\\HotelBooking.APIs.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.APIs.Tests\\HotelBooking.APIs.Tests.csproj",
       "projectName": "HotelBooking.APIs.Tests",
-      "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking\\HotelBooking.APIs.Tests\\HotelBooking.APIs.Tests.csproj",
+      "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.APIs.Tests\\HotelBooking.APIs.Tests.csproj",
       "packagesPath": "C:\\Users\\jaypa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking\\HotelBooking.APIs.Tests\\obj\\",
+      "outputPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.APIs.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

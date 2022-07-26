@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking\\HotelBooking.Repositories.Tests\\HotelBooking.Repositories.Tests.csproj": {}
+    "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Repositories.Tests\\HotelBooking.Repositories.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking\\HotelBooking.Repositories.Tests\\HotelBooking.Repositories.Tests.csproj": {
+    "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Repositories.Tests\\HotelBooking.Repositories.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking\\HotelBooking.Repositories.Tests\\HotelBooking.Repositories.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Repositories.Tests\\HotelBooking.Repositories.Tests.csproj",
         "projectName": "HotelBooking.Repositories.Tests",
-        "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking\\HotelBooking.Repositories.Tests\\HotelBooking.Repositories.Tests.csproj",
+        "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Repositories.Tests\\HotelBooking.Repositories.Tests.csproj",
         "packagesPath": "C:\\Users\\jaypa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking\\HotelBooking.Repositories.Tests\\obj\\",
+        "outputPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Repositories.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

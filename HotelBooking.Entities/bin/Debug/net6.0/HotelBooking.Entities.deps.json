@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HotelBooking.Entities/1.0.0": {
+        "dependencies": {
+          "HotelBooking.Models": "1.0.0"
+        },
+        "runtime": {
+          "HotelBooking.Entities.dll": {}
+        }
+      },
+      "HotelBooking.Models/1.0.0": {
+        "runtime": {
+          "HotelBooking.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HotelBooking.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HotelBooking.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

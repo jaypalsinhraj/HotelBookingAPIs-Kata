@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking\\HotelBooking.Repositories\\HotelBooking.Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Repositories\\HotelBooking.Repositories.csproj",
       "projectName": "HotelBooking.Repositories",
-      "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking\\HotelBooking.Repositories\\HotelBooking.Repositories.csproj",
+      "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Repositories\\HotelBooking.Repositories.csproj",
       "packagesPath": "C:\\Users\\jaypa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking\\HotelBooking.Repositories\\obj\\",
+      "outputPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

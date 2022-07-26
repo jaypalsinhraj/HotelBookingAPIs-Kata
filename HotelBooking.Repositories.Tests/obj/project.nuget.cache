@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kUV1kHJq3PDVFQwgX4epjBsXClX8XdGmg1k6kduTA0aUGSGnbOU3DDusVqwOkuSIwfFsB1UaiQqVXQlw2/VRqQ==",
+  "dgSpecHash": "ADO4hk4MrvLpmdm1z+VHUFBL0XjuRpfsRG56ef+aFrnQ5c35hKV7c/QtIFa3vSzy3yVMoRKKIzdcl0392FcmXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking\\HotelBooking.Repositories.Tests\\HotelBooking.Repositories.Tests.csproj",
+  "projectFilePath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Repositories.Tests\\HotelBooking.Repositories.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaypa\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\jaypa\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

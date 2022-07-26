@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SqZt8S6jlBdL4bwHZWavRLOAFF2yciRcYX1Ht6e5b0/vXxcQ0Yz6LV0eXsvmrCFDisNV4czP5NAYYch+3AjMhQ==",
+  "dgSpecHash": "hPhCO4r6Up0JVuMBd+wkFLB6VX6NjZFYyiEN79o4GvXFtfWpM7M0Fo0E/l/CyuZcgi/gpT+QnGE47xqepeGVNg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking\\HotelBooking.APIs\\HotelBooking.APIs.csproj",
+  "projectFilePath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.APIs\\HotelBooking.APIs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaypa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\jaypa\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

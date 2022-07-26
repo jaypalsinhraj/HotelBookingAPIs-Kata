@@ -1,0 +1,12 @@
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Models\bin\Debug\net6.0\HotelBooking.Models.deps.json
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Models\bin\Debug\net6.0\HotelBooking.Models.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Models\bin\Debug\net6.0\HotelBooking.Models.pdb
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Models\obj\Debug\net6.0\HotelBooking.Models.csproj.AssemblyReference.cache
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Models\obj\Debug\net6.0\HotelBooking.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Models\obj\Debug\net6.0\HotelBooking.Models.AssemblyInfoInputs.cache
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Models\obj\Debug\net6.0\HotelBooking.Models.AssemblyInfo.cs
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Models\obj\Debug\net6.0\HotelBooking.Models.csproj.CoreCompileInputs.cache
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Models\obj\Debug\net6.0\HotelBooking.Models.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Models\obj\Debug\net6.0\refint\HotelBooking.Models.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Models\obj\Debug\net6.0\HotelBooking.Models.pdb
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Models\obj\Debug\net6.0\ref\HotelBooking.Models.dll

@@ -1,0 +1,12 @@
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Repositories\bin\Debug\net6.0\HotelBooking.Repositories.deps.json
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Repositories\bin\Debug\net6.0\HotelBooking.Repositories.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Repositories\bin\Debug\net6.0\HotelBooking.Repositories.pdb
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Repositories\obj\Debug\net6.0\HotelBooking.Repositories.csproj.AssemblyReference.cache
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Repositories\obj\Debug\net6.0\HotelBooking.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Repositories\obj\Debug\net6.0\HotelBooking.Repositories.AssemblyInfoInputs.cache
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Repositories\obj\Debug\net6.0\HotelBooking.Repositories.AssemblyInfo.cs
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Repositories\obj\Debug\net6.0\HotelBooking.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Repositories\obj\Debug\net6.0\HotelBooking.Repositories.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Repositories\obj\Debug\net6.0\refint\HotelBooking.Repositories.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Repositories\obj\Debug\net6.0\HotelBooking.Repositories.pdb
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Repositories\obj\Debug\net6.0\ref\HotelBooking.Repositories.dll
