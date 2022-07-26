@@ -1,9 +1,8 @@
-﻿namespace HotelBooking.Models
+﻿namespace HotelBooking.Models;
+
+public class RoomTypeDto
 {
-    public class RoomTypeDto
-    {
-        public int Id { get; set; }
-        public RoomTypeEnum Type { get; set; }
-        public int Capacity { get; set; }
-    }
+    public int Id { get; set; }
+    public RoomTypeEnum Type { get; set; }
+    public int Capacity { get; set; }
 }

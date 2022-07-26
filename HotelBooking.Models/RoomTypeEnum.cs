@@ -1,9 +1,8 @@
-﻿namespace HotelBooking.Models
+﻿namespace HotelBooking.Models;
+
+public enum RoomTypeEnum
 {
-    public enum RoomTypeEnum
-    {
-        Single = 1,
-        Double = 2,
-        Delux = 3
-    }
+    Single = 1,
+    Double = 2,
+    Delux = 3
 }

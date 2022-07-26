@@ -1,0 +1,17 @@
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\bin\Debug\net6.0\HotelBooking.Data.deps.json
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\bin\Debug\net6.0\HotelBooking.Data.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\bin\Debug\net6.0\HotelBooking.Data.pdb
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\bin\Debug\net6.0\HotelBooking.Entities.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\bin\Debug\net6.0\HotelBooking.Models.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\bin\Debug\net6.0\HotelBooking.Entities.pdb
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\bin\Debug\net6.0\HotelBooking.Models.pdb
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\obj\Debug\net6.0\HotelBooking.Data.csproj.AssemblyReference.cache
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\obj\Debug\net6.0\HotelBooking.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\obj\Debug\net6.0\HotelBooking.Data.AssemblyInfoInputs.cache
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\obj\Debug\net6.0\HotelBooking.Data.AssemblyInfo.cs
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\obj\Debug\net6.0\HotelBooking.Data.csproj.CoreCompileInputs.cache
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\obj\Debug\net6.0\HotelBooking.Data.csproj.CopyComplete
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\obj\Debug\net6.0\HotelBooking.Data.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\obj\Debug\net6.0\refint\HotelBooking.Data.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\obj\Debug\net6.0\HotelBooking.Data.pdb
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.Data\obj\Debug\net6.0\ref\HotelBooking.Data.dll

@@ -1,8 +1,7 @@
-﻿namespace HotelBooking.Models
+﻿namespace HotelBooking.Models;
+
+public class GuestDto
 {
-    public class GuestDto
-    {
-        public int Id { get; set; }
-        public string FullName { get; set; } = string.Empty;
-    }
+    public int Id { get; set; }
+    public string FullName { get; set; } = string.Empty;
 }
