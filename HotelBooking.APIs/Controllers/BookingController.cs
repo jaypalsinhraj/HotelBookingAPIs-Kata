@@ -40,6 +40,9 @@ public class BookingController : ControllerBase
         if (value.RoomId <= 0 || value.NoOfGuests <= 0 || value.FromDate <= DateTime.MinValue || value.ToDate <= DateTime.MinValue)
             return BadRequest();
 
+        if (value.FromDate > value.ToDate)
+            return BadRequest("From date cannot be ahead of to date");
+
         var isRoomBooked = await _bookingData.ExistsBookingForRoomAsync(value.RoomId, value.FromDate, value.ToDate);
         if (isRoomBooked)
             return BadRequest($"Room already booked between { value.FromDate.ToString("dd-MMM-yyyy") } and { value.ToDate.ToString("dd-MMM-yyyy") }");

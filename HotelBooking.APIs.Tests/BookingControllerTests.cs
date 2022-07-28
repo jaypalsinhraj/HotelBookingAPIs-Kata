@@ -86,6 +86,27 @@ public class BookingControllerTests
     }
 
     [Fact]
+    public async Task BookRoom_PostAction_WhenFromDateIsGreaterThanToDate_It_ReturnsBadRequestResult()
+    {
+        //Arrange
+        var fakeBookingDto = new BookingDto()
+        {
+            RoomId = 1,
+            NoOfGuests = 1,
+            FromDate = DateTime.Now.AddDays(3),
+            ToDate = DateTime.Now.AddDays(1)
+        };
+
+        //Act
+        var result = await _bookingController.BookRoom(fakeBookingDto);
+
+        //Assert
+        var badRequestResult = Assert.IsType<BadRequestObjectResult>(result);
+        Assert.Equal("From date cannot be ahead of to date", badRequestResult.Value);
+    }
+
+
+    [Fact]
     public async Task BookRoom_PostAction_WhenRoomIsAlreadyBooked_It_ReturnsBadRequestWithMessageResult()
     {
         //Arrange

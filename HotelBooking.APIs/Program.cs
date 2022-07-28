@@ -22,6 +22,8 @@ builder.Services.AddDbContext<HotelBookingDbContext>(
 builder.Services.AddScoped<IHotelData, HotelData>();
 builder.Services.AddScoped<IRoomData, RoomData>();
 builder.Services.AddScoped<IBookingData, BookingData>();
+builder.Services.AddScoped<IDataSeeder, DataSeeder>();
+
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 var app = builder.Build();
