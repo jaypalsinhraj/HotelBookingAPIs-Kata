@@ -8,8 +8,12 @@ public class Hotel
 
     [Required]
     [MaxLength(256)]
-    public string Name { get; set; } = string.Empty;
+    public string Name { get; set; }
 
     public ICollection<Room> Rooms { get; set; } = new List<Room>();
 
+    public Hotel(string name)
+    {
+        Name = name;
+    }
 }

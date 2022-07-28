@@ -2,9 +2,9 @@
 
 public interface IRoomData
 {
-    Task<Room> GetRoomByIdAsync(int id);
+    Task<IEnumerable<Room>> GetAvailableRoomsForHotelAsync(int hotelId, int noOfGuests, DateTime fromDate, DateTime toDate);
 
-    Task<IEnumerable<Room>> GetRoomsForHotelAsync(int hotelId);
+    Task<int> GetMaxCapacityForAnyRoomAsync(int hotelId);
 
-    Task AddRoomAsync(int hotelId, Room room);
+    Task<bool> IsRoomCapacityValidAsync(int roomId, int requiredCapacity);
 }

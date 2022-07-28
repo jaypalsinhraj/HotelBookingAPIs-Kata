@@ -58,3 +58,5 @@ C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.APIs\
 C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.APIs\bin\Debug\net6.0\HotelBooking.Models.pdb
 C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.APIs\bin\Debug\net6.0\HotelBooking.Data.dll
 C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.APIs\bin\Debug\net6.0\HotelBooking.Data.pdb
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.APIs\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\jaypa\Documents\__Projects\Dojo\Katas-2\HotelBooking\HotelBooking.APIs\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

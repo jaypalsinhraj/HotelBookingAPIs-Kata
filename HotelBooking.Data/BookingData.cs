@@ -1,5 +1,6 @@
 ﻿using HotelBooking.Entities;
 using HotelBooking.Entities.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace HotelBooking.Data
 {
@@ -9,24 +10,26 @@ namespace HotelBooking.Data
         {
         }
 
-        public Task<bool> ExistsBookingForRoomAsync(int roomId)
+        public async Task AddBooking(Booking booking)
         {
-            throw new NotImplementedException();
+            await _context.AddAsync(booking);
         }
 
-        public Task<Booking> GetBookingByRefAsync(Guid bookingRef)
+        public async Task<bool> ExistsBookingForRoomAsync(int roomId, DateTime fromDate, DateTime toDate)
         {
-            throw new NotImplementedException();
+            return await _context.Bookings.AnyAsync(b => b.RoomId == roomId && b.FromDate >= fromDate && b.ToDate <= toDate);
         }
 
-        public Task<IEnumerable<Booking>> GetBookingsForRoomAsync(int roomId)
+        public async Task<Booking?> GetBookingByRefAsync(Guid bookingRef)
         {
-            throw new NotImplementedException();
+            return (await _context.Bookings.SingleOrDefaultAsync(b => b.BookingRef == bookingRef))!;
         }
 
-        public Task<IEnumerable<Booking>> GetBookingsForUserAsync(int userId)
+        public async Task<bool> SaveChangesAsync()
         {
-            throw new NotImplementedException();
+            return (await _context.SaveChangesAsync() >= 1);
         }
+
+
     }
 }

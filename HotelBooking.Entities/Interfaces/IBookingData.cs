@@ -2,11 +2,11 @@
 
 public interface IBookingData
 {
-    Task<Booking> GetBookingByRefAsync(Guid bookingRef);
+    Task AddBooking(Booking booking);
 
-    Task<IEnumerable<Booking>> GetBookingsForUserAsync(int userId);
+    Task<Booking?> GetBookingByRefAsync(Guid bookingRef);
 
-    Task<IEnumerable<Booking>> GetBookingsForRoomAsync(int roomId);
+    Task<bool> ExistsBookingForRoomAsync(int roomId, DateTime fromDate, DateTime toDate);
 
-    Task<bool> ExistsBookingForRoomAsync(int roomId);
+    Task<bool> SaveChangesAsync();
 }

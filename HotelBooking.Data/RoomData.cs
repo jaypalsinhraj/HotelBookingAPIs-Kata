@@ -1,5 +1,6 @@
 ﻿using HotelBooking.Entities;
 using HotelBooking.Entities.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace HotelBooking.Data
 {
@@ -9,19 +10,25 @@ namespace HotelBooking.Data
         {
         }
 
-        public Task AddRoomAsync(int hotelId, Room room)
+        public async Task<IEnumerable<Room>> GetAvailableRoomsForHotelAsync(int hotelId, int noOfGuests, DateTime fromDate, DateTime toDate)
         {
-            throw new NotImplementedException();
+            var bookingsBetweenDates = _context.Bookings.Where(b => (fromDate.Date >= b.FromDate.Date && fromDate.Date <= b.ToDate.Date));
+
+            var rooms = _context.Rooms.Include(t => t.RoomType).Where(r => r.HotelId == hotelId && r.RoomType != null && r.RoomType.Capacity >= noOfGuests);
+
+            return await rooms.Where(r => !bookingsBetweenDates.Any(b => b.RoomId == r.Id)).ToListAsync();
         }
 
-        public Task<Room> GetRoomByIdAsync(int id)
+        public async Task<int> GetMaxCapacityForAnyRoomAsync(int hotelId)
         {
-            throw new NotImplementedException();
+            return await _context.Rooms.Include(r => r.RoomType)
+                                       .Where(r => r.HotelId == hotelId && r.RoomType != null)
+                                       .MaxAsync(m => m.RoomType.Capacity);
         }
 
-        public Task<IEnumerable<Room>> GetRoomsForHotelAsync(int hotelId)
+        public async Task<bool> IsRoomCapacityValidAsync(int roomId, int requiredCapacity)
         {
-            throw new NotImplementedException();
+            return await _context.Rooms.Include(r => r.RoomType).AnyAsync(r => r.Id == roomId && r.RoomType != null && requiredCapacity <= r.RoomType.Capacity);
         }
     }
 }

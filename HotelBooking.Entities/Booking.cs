@@ -7,14 +7,14 @@ public class Booking
 {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-    public Guid BookingRefId { get; set; }
+    public Guid BookingRef { get; set; }
 
     public Room? Room { get; set; }
     public int RoomId { get; set; }
 
-    public Guest? Guest { get; set; }
-    public int GuestId { get; set; }
+    [Required]
+    public int NoOfGuests { get; set; }
 
-    public DateTime? FromDate { get; set; }
-    public DateTime? ToDate { get; set; }
+    public DateTime FromDate { get; set; }
+    public DateTime ToDate { get; set; }
 }

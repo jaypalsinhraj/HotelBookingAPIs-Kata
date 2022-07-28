@@ -14,6 +14,13 @@ public class Room
 
     [Required]
     [MaxLength(128)]
-    public string Title { get; set; } = string.Empty;
+    public string Title { get; set; }
+
+    public ICollection<Booking> Bookings { get; set; } = new List<Booking>();
+
+    public Room(string title)
+    {
+        Title = title;
+    }
 
 }

@@ -19,45 +19,27 @@ namespace HotelBooking.Data.Migrations
 
             modelBuilder.Entity("HotelBooking.Entities.Booking", b =>
                 {
-                    b.Property<Guid>("BookingRefId")
+                    b.Property<Guid>("BookingRef")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime?>("FromDate")
+                    b.Property<DateTime>("FromDate")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("GuestId")
+                    b.Property<int>("NoOfGuests")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("RoomId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<DateTime?>("ToDate")
+                    b.Property<DateTime>("ToDate")
                         .HasColumnType("TEXT");
 
-                    b.HasKey("BookingRefId");
-
-                    b.HasIndex("GuestId");
+                    b.HasKey("BookingRef");
 
                     b.HasIndex("RoomId");
 
                     b.ToTable("Bookings");
-                });
-
-            modelBuilder.Entity("HotelBooking.Entities.Guest", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("FullName")
-                        .IsRequired()
-                        .HasMaxLength(256)
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Guests");
                 });
 
             modelBuilder.Entity("HotelBooking.Entities.Hotel", b =>
@@ -74,6 +56,23 @@ namespace HotelBooking.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Hotels");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Holiday Inn"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Novotel"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Premier Inn"
+                        });
                 });
 
             modelBuilder.Entity("HotelBooking.Entities.Room", b =>
@@ -100,6 +99,134 @@ namespace HotelBooking.Data.Migrations
                     b.HasIndex("RoomTypeId");
 
                     b.ToTable("Rooms");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            HotelId = 1,
+                            RoomTypeId = 1,
+                            Title = "Room 101"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            HotelId = 1,
+                            RoomTypeId = 2,
+                            Title = "Room 102"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            HotelId = 1,
+                            RoomTypeId = 3,
+                            Title = "Room 103"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            HotelId = 1,
+                            RoomTypeId = 1,
+                            Title = "Room 201"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            HotelId = 1,
+                            RoomTypeId = 2,
+                            Title = "Room 202"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            HotelId = 1,
+                            RoomTypeId = 3,
+                            Title = "Room 203"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            HotelId = 2,
+                            RoomTypeId = 1,
+                            Title = "Room 101"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            HotelId = 2,
+                            RoomTypeId = 2,
+                            Title = "Room 102"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            HotelId = 2,
+                            RoomTypeId = 3,
+                            Title = "Room 103"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            HotelId = 2,
+                            RoomTypeId = 1,
+                            Title = "Room 201"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            HotelId = 2,
+                            RoomTypeId = 2,
+                            Title = "Room 202"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            HotelId = 2,
+                            RoomTypeId = 3,
+                            Title = "Room 203"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            HotelId = 3,
+                            RoomTypeId = 1,
+                            Title = "Room 101"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            HotelId = 3,
+                            RoomTypeId = 2,
+                            Title = "Room 102"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            HotelId = 3,
+                            RoomTypeId = 3,
+                            Title = "Room 103"
+                        },
+                        new
+                        {
+                            Id = 16,
+                            HotelId = 3,
+                            RoomTypeId = 1,
+                            Title = "Room 201"
+                        },
+                        new
+                        {
+                            Id = 17,
+                            HotelId = 3,
+                            RoomTypeId = 2,
+                            Title = "Room 202"
+                        },
+                        new
+                        {
+                            Id = 18,
+                            HotelId = 3,
+                            RoomTypeId = 3,
+                            Title = "Room 203"
+                        });
                 });
 
             modelBuilder.Entity("HotelBooking.Entities.RoomType", b =>
@@ -117,23 +244,35 @@ namespace HotelBooking.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("RoomTypes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Capacity = 1,
+                            Type = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Capacity = 2,
+                            Type = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Capacity = 3,
+                            Type = 3
+                        });
                 });
 
             modelBuilder.Entity("HotelBooking.Entities.Booking", b =>
                 {
-                    b.HasOne("HotelBooking.Entities.Guest", "Guest")
-                        .WithMany()
-                        .HasForeignKey("GuestId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("HotelBooking.Entities.Room", "Room")
-                        .WithMany()
+                        .WithMany("Bookings")
                         .HasForeignKey("RoomId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Guest");
 
                     b.Navigation("Room");
                 });
@@ -160,6 +299,11 @@ namespace HotelBooking.Data.Migrations
             modelBuilder.Entity("HotelBooking.Entities.Hotel", b =>
                 {
                     b.Navigation("Rooms");
+                });
+
+            modelBuilder.Entity("HotelBooking.Entities.Room", b =>
+                {
+                    b.Navigation("Bookings");
                 });
 #pragma warning restore 612, 618
         }
