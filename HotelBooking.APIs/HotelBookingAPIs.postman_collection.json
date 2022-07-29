@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "5772e346-9d2e-471f-9b57-60c010e72d21",
+		"name": "HotelBookingAPIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6832515"
+	},
+	"item": [
+		{
+			"name": "Seeder",
+			"item": [
+				{
+					"name": "DeleteData",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{localhost}}/api/DataSeeding",
+							"host": [
+								"{{localhost}}"
+							],
+							"path": [
+								"api",
+								"DataSeeding"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{localhost}}/api/DataSeeding",
+							"host": [
+								"{{localhost}}"
+							],
+							"path": [
+								"api",
+								"DataSeeding"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Booking",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"bookingRef\": null,\r\n  \"roomId\": 1,\r\n  \"noOfGuests\": 1,\r\n  \"fromDate\": \"2022-07-29\",\r\n  \"toDate\": \"2022-07-30\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{localhost}/api/Booking",
+					"host": [
+						"{localhost}"
+					],
+					"path": [
+						"api",
+						"Booking"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Booking",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{localhost}/api/Booking/84cae680-fb4a-456c-b891-1a02c82ea4d5",
+					"host": [
+						"{localhost}"
+					],
+					"path": [
+						"api",
+						"Booking",
+						"84cae680-fb4a-456c-b891-1a02c82ea4d5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hotel",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Available Rooms",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/api/hotel/1/Room/available?noOfGuests=2&fromDate=2022-07-29&toDate=2022-08-01",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"api",
+						"hotel",
+						"1",
+						"Room",
+						"available"
+					],
+					"query": [
+						{
+							"key": "noOfGuests",
+							"value": "2"
+						},
+						{
+							"key": "fromDate",
+							"value": "2022-07-29"
+						},
+						{
+							"key": "toDate",
+							"value": "2022-08-01"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
