@@ -16,6 +16,7 @@ The system should provide the following core functionality:
 # Technical Requirements:
 - The API must be testable. 
 - For testing purposes the API should expose functionality to allow for seeding and  resetting the data 
-- Seeding: Populate database with just enough data for testing ▪ Resetting: Remove all data ready for seeding 
+- Seeding: Populate database with just enough data for testing 
+- Resetting: Remove all data ready for seeding 
 - The API Requires no authentication
 
