@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Data\\HotelBooking.Data.csproj": {}
+    "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Data\\HotelBooking.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Data\\HotelBooking.Data.csproj": {
+    "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Data\\HotelBooking.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Data\\HotelBooking.Data.csproj",
+        "projectUniqueName": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Data\\HotelBooking.Data.csproj",
         "projectName": "HotelBooking.Data",
-        "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Data\\HotelBooking.Data.csproj",
+        "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Data\\HotelBooking.Data.csproj",
         "packagesPath": "C:\\Users\\jaypa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Data\\obj\\",
+        "outputPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Entities\\HotelBooking.Entities.csproj": {
-                "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Entities\\HotelBooking.Entities.csproj"
+              "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Entities\\HotelBooking.Entities.csproj": {
+                "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Entities\\HotelBooking.Entities.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Entities\\HotelBooking.Entities.csproj": {
+    "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Entities\\HotelBooking.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Entities\\HotelBooking.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Entities\\HotelBooking.Entities.csproj",
         "projectName": "HotelBooking.Entities",
-        "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Entities\\HotelBooking.Entities.csproj",
+        "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Entities\\HotelBooking.Entities.csproj",
         "packagesPath": "C:\\Users\\jaypa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Entities\\obj\\",
+        "outputPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -102,8 +102,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Models\\HotelBooking.Models.csproj": {
-                "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Models\\HotelBooking.Models.csproj"
+              "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Models\\HotelBooking.Models.csproj": {
+                "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Models\\HotelBooking.Models.csproj"
               }
             }
           }
@@ -136,14 +136,14 @@
         }
       }
     },
-    "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Models\\HotelBooking.Models.csproj": {
+    "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Models\\HotelBooking.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Models\\HotelBooking.Models.csproj",
+        "projectUniqueName": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Models\\HotelBooking.Models.csproj",
         "projectName": "HotelBooking.Models",
-        "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Models\\HotelBooking.Models.csproj",
+        "projectPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Models\\HotelBooking.Models.csproj",
         "packagesPath": "C:\\Users\\jaypa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Models\\obj\\",
+        "outputPath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

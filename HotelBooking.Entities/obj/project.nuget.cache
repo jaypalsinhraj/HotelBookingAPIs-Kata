@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x5Pe+bRdO2Tl2oN0l3SjAB8KfqZATOk0u5FDIbeMvll2pP6+NVM7yuqIymo8nL5vodT/cdY54l/3tdgqyzh5dw==",
+  "dgSpecHash": "MCwKgiR5NqfomsvYrwyX7nmyt+jJbJ76rR3ND5KbfPqU8s3s6cruU3Iq3J1nNYaovIawyrkG9sGtbxzikR6EPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Entities\\HotelBooking.Entities.csproj",
+  "projectFilePath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Entities\\HotelBooking.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

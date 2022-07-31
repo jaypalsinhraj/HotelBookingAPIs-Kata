@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3r2gB43zTylx3y7jY7HhRDLP6OcUhl75DqXf5gC4MXOZGLsVc6Q2aQ0uYBWBBXbFvlDb65MChGE1i5ja9P0L1Q==",
+  "dgSpecHash": "pgJCrcbjqnN/NFoAGI8QqDlQIEMf+RDFGMfwtLicGUPb/oaufEQBoBFc4Us0T7a+DRtJnqjlkINskf1QLzIehQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.APIs\\HotelBooking.APIs.csproj",
+  "projectFilePath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.APIs\\HotelBooking.APIs.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaypa\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\jaypa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

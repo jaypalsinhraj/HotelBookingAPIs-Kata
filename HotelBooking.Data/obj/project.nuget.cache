@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GgIp/1H4f+mZY9uoUbosW7XX49YV7blVZBVbLIeIP5OCzNt7jO+XBa1steqRS6Brb1jmnuZyuJfkdnqEXv2ekw==",
+  "dgSpecHash": "yLM6mhSVQX2yT9iEyUwPVufYQmX0h8wCjbsI2k1O9GNafe7E1IaLSF4PByLbAwIMVZYWgOe2JhAkXrMNdQfTmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas-2\\HotelBooking\\HotelBooking.Data\\HotelBooking.Data.csproj",
+  "projectFilePath": "C:\\Users\\jaypa\\Documents\\__Projects\\Dojo\\Katas\\HotelBooking\\HotelBooking.Data\\HotelBooking.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jaypa\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.7\\microsoft.data.sqlite.core.6.0.7.nupkg.sha512",
     "C:\\Users\\jaypa\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",
